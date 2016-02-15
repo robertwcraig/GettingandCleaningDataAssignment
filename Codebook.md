@@ -28,7 +28,7 @@ Code book
 
 	The following variables are included in the data set:
 	1.	subjectid: Subjects participating in the study, numbered from 1 to 30.
-	2.	activity: Activity performed by the subject during the experiment (Six activitie: walking, walkingupstairs, walkingdownstairs, sitting, standing, laying)
+	2.	activity: Activity performed by the subject during the experiment (Six activities: walking, walkingupstairs, walkingdownstairs, sitting, standing, laying)
 	3.	Measurements from the original data set (66 variables, with 33 mean and 33 standard deviation measurements).
 		o	These measures come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.
 		o	Time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. 
