@@ -1,16 +1,16 @@
 library(data.table)
-xtest <- read.table("./data/test/X_test.txt")
-ytest <- read.table("./data/test/Y_test.txt")
-subjecttest <- read.table("./data/test/subject_test.txt")
-xtrain <- read.table("./data/train/X_train.txt")
-ytrain <- read.table("./data/train/y_train.txt")
-subjecttrain <- read.table("./data/train/subject_train.txt")
+xtest <- read.table("./UCI HAR Dataset/test/X_test.txt")
+ytest <- read.table("./UCI HAR Dataset/test/Y_test.txt")
+subjecttest <- read.table("./UCI HAR Dataset/test/subject_test.txt")
+xtrain <- read.table("./UCI HAR Dataset/train/X_train.txt")
+ytrain <- read.table("./UCI HAR Dataset/train/y_train.txt")
+subjecttrain <- read.table("./UCI HAR Dataset/train/subject_train.txt")
 
 xdata <- rbind(xtest, xtrain)
 ydata <- rbind(ytest, ytrain)
 
-features <- read.table("./data/features.txt", col.names=c("featureid", "featurelabel"))
-activities <- read.table("./data/activity_labels.txt",col.names=c("activityid","activitylabel"))
+features <- read.table("./UCI HAR Dataset/features.txt", col.names=c("featureid", "featurelabel"))
+activities <- read.table("./UCI HAR Dataset/activity_labels.txt",col.names=c("activityid","activitylabel"))
 
 activities$activitylabel <- tolower(gsub("_", "", activities$activitylabel))
 names(ydata) = "activityid"
