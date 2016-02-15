@@ -2,7 +2,6 @@
 This code book contains information on the variables, data, and transformations performed for the “Getting and Cleaning Data” final assignment.
 
 Study Design
-
 	This project is part of the final assignment for the “Getting and Cleaning Data” course from Johns Hopkins University on Coursera. The assignment objective was to product a tidy data set, extracting the mean and standard deviation for each measurement in the data set.
 	Data was collected from the UC Irvine Machine Learning Repository and is available as part of the following database: “Human Activity Recognition Using Smartphones Data Set.” The full description of the data set is available at the following URL: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 		More detail on the data set collection from the project website: The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data.
@@ -21,7 +20,6 @@ Study Design
 	11.	Output of the data frame is written to the “calculated_tinydata.txt” file.
 
 Code book
-
 	The following variables are included in the data set:
 	1.	subjectid: Subjects participating in the study, numbered from 1 to 30.
 	2.	activity: Activity performed by the subject during the experiment (Six activitie: walking, walkingupstairs, walkingdownstairs, sitting, standing, laying)
